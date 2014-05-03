@@ -1,4 +1,7 @@
 Segment seg;
+
+float time;
+
 void setup() {
   size(800, 600, P2D);
   colorMode(HSB);
@@ -9,7 +12,6 @@ void draw() {
   background(255);
   seg.draw();
 }
-
 
 Segment make_segment_at(PVector pos, float size, color col) {
   Segment x = new Segment();
